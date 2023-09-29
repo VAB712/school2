@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>स्थानिक किंमत</title>
+</head>
+
+<body>
+    <div class="home">
+        <div class="title">
+            <h1 id="title">स्थानिक किंमत</h1>
+        </div>
+        <div class="box">
+            <div class="unit">
+                <div class="units">
+                    <h1>हजार</h1>
+                    <h1>शतक</h1>
+                    <h1>दशक</h1>
+                    <h1>एकक</h1>
+                    <h1>एकांश</h1>
+                    <h1>दशांश</h1>
+                    <h1>शतांश</h1>
+                    <h1>सहस्त्रांश</h1>
+                    <h1>दशमान पद्धत</h1>
+                </div>
+            </div>
+            <div class="number1">
+                <div class="digits">
+                    <div class="digit">
+                        <h2 onclick="x1000()" id="d4">0</h2>
+                    </div>
+                    <div class="digit">
+                        <h2 onclick="x100()" id="d3">0</h2>
+                    </div>
+                    <div class="digit">
+                        <h2 onclick="x10()" id="d2">0</h2>
+                    </div>
+                    <div class="digit">
+                        <h2 onclick="x1()" id="d1">0</h2>
+                    </div>
+                    <div class="digit">
+                        <h2 onclick="x()" id="d00">.</h2>
+                    </div>
+                    <div class="digit">
+                        <h2 onclick="x01()" id="d01">0</h2>
+                    </div>
+                    <div class="digit">
+                        <h2 onclick="x001()" id="d001">0</h2>
+                    </div>
+                    <div class="digit">
+                        <h2 onclick="x0001()" id="d0001">0</h2>
+                    </div>
+                </div>
+                <div class="input_number">
+                    <input type="number" id="num1">
+                    <button id="mybtn" onclick="split1()"> रूपांतर </button>
+                </div>
+            </div>
+
+            <div class="ans">
+                <h1>स्थानिक किंमत</h1>
+                <h2 id="ans2">0</h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
